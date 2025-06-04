@@ -3,7 +3,10 @@
     padding: 0;
 }
 header{
-    margin-bottom: 10px;
+    height: 18%;
+    width: 100%;
+    background-color: #233956;
+
 }
 main{
     /*height: 1000px;
@@ -16,11 +19,50 @@ footer{
     width: 100%;
     background-color: rgb(0, 0, 0);*/
 }
-body{
+html, body{
+    height: 100%;
+    /*
     background-image: url(Desktop\ -\ 8.png);
     background-size: 100%;
     background-repeat: no-repeat;
+*/}
+
+.logo{
+    width: 20%;
+    height: 15%;
+    background-color: aqua;
+    border-radius: 50px / 50px;    
+    background: linear-gradient(to bottom, #60B9DC 0%, #336376 -200%);
+    background-size: 200% 100%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36pt;
+    
 }
+
+.find{
+    width: 45.9%;
+    height: 6%;
+    background-color: #D0CCCC;
+    border-radius: 20px / 20px;
+    position: absolute;
+    top: 3%;
+    left: 27.1%;
+    /*border-style: solid;
+    border-width: 2px;*/
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: xx-large;
+}
+
+
 .text1{
     color: blue;
 }
