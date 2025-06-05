@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <style>
         html, body{
-                height: 100%;
-        }
+    height: 105%;
+    
+
+}
     </style>
 </head>
 
@@ -23,15 +25,17 @@
         </a>
     </header>
     <main>
-        <div class="login_top">Вход в аккаунт</div>
-        <div class="login_win"></div>
-        <input class="login_input" contenteditable="true" placeholder="Логин"></div>
-        <input class="password_input" contenteditable="true" placeholder="Пароль"></div>
+        <div class="login_top">Регистрация</div>
+        <div class="reg_win"></div>
+        <input id="login_input" class="login_input" contenteditable="true" placeholder="Придумайте логин"></div>
+        <input id="password_input" class="password_input" contenteditable="true" placeholder="Пароль"></div>
+        <input id="password_input_2" contenteditable="true" placeholder="Повторите пароль"></div>
+        <input id="email_input" contenteditable="true" placeholder="Придумайте почту"></div>
         <a href="profile.html" style="display: block; color: black;">
-            <div class="button_enter">Войти</div>
+            <div id="button_reg" class="button_reg">Зарегестрироваться</div>
         </a>
-        <a href="reg.html" style="display: block; color: black;">
-            <div class="button_reg_win">Регистрация</div>
+        <a href="login.html" style="display: block; color: black;">
+            <div class="button_enter_win">Страница входа</div>
         </a>
     </main>
     <footer>
@@ -44,6 +48,19 @@
     
    
     
-    
+    <script>
+        let login_input = document.getElementById('login_input');
+        let password_input = document.getElementById('password_input');
+        let button_reg = document.getElementById('button_reg')
+
+        button_reg.addEventListener('click', function(){
+            console.log(login_input.value, password_input.value)
+
+            localStorage.setItem('login', login_input.value);
+            localStorage.setItem('password', password_input.value);
+
+            alert('Регистрация прошла успешно')
+        })
+    </script>
 </body>
 </html>

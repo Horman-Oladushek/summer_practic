@@ -12,20 +12,13 @@ main{
     
     height: 100%;
     width: 100%;
-    /* background: linear-gradient(to bottom, #233956 0%, #4C7CBC 100%); */
+    background: linear-gradient(to bottom, #233956 0%, #4C7CBC 100%);
    
 }
 footer{
     height: 15%;
     width: 100%;
     background-color: #4C7CBC;
-}
-html, body{
-    height: 100%;
-    
-    background-image: url(Desktop\ -\ 3.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 .logo{
@@ -102,7 +95,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 73px;
+    font-size: 62px;
     top: 28.8%;
     left: 33.7%;
 }
@@ -131,4 +124,181 @@ html, body{
     font-size: 32px;
     top: 70.3%;
     left: 40.6%;
+}
+
+.button_reg_win{
+    width: 22%;
+    height: 6%;
+    background-color: #5E8CDB;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 78.9%;
+    left: 40.6%;
+}
+
+.login_input{
+    width: 29.1%; 
+    height: 5.6%;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 49%;
+    left: 36.6%;
+}
+
+.password_input{
+    width: 29.1%; 
+    height: 5.6%;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 60%; 
+    left: 36.6%;
+}
+
+.reg_win{
+    width: 33.4%;
+    height: 79%;
+    border-radius: 30px / 30px;
+    background: linear-gradient(to bottom, rgb(96,185,220,0.49) 0%, rgb(0,0,253,0.2) 100%);
+    background-size: 200% 100%;
+    position: absolute;
+    display: flex;
+    top: 42.3%;
+    left: 34.3%;
+}
+
+.button_reg{
+    width: 22%;
+    height: 6%;
+    background-color: #5E8CDB;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 98%;
+    left: 40.6%;
+}
+
+.button_enter_win{
+    width: 22%;
+    height: 6%;
+    background-color: #5E8CDB;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 106%;
+    left: 40.6%;
+}
+
+#password_input_2{
+    width: 29.1%; 
+    height: 5.6%;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 71%; 
+    left: 36.6%;
+}
+
+#email_input{
+    width: 29.1%; 
+    height: 5.6%;
+    border-radius: 15px / 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 82%; 
+    left: 36.6%;
+}
+
+.ad_main{
+    position: relative;
+    width: 100%;
+
+}
+
+#motherboard{
+    position: absolute;
+    top: 67.3%;
+    left: 31%;
+    font-size: 19.5px;
+    width: 33.25%;
+    height: 39.5%;
+}
+
+#box{
+    position: absolute;
+    top: 69.7%;
+    left: 31%;
+    font-size: 19.5px;
+    width: 33.25%;
+    height: 39.5%;
+}
+
+#cpu{
+    position: absolute;
+    top: 72%;
+    left: 31%;
+    font-size: 19.5px;
+    width: 33.25%;
+    height: 39.5%;
+}
+
+#hdd{
+    position: absolute;
+    top: 74.3%;
+    left: 31%;
+    font-size: 19.5px;
+    width: 33.25%;
+    height: 39.5%;
+}
+
+#cooler{
+    position: absolute;
+    top: 76.7%;
+    left: 31%;
+    font-size: 19.5px;
+    width: 33.25%;
+    height: 39.5%;
+}
+
+#psu{
+    position: absolute;
+    top: 79%;
+    left: 31%;
+    font-size: 19.5px;
+    width: 33.25%;
+    height: 39.5%;
+}
+.text_pc{
+    color: #7F7878;
+}
+
+.pc_web_img{
+    position: absolute;
+    top: 64.2%;
+    left: 10.1%;
+    width: 33.25%;
+    height: 39.5%;
 }
