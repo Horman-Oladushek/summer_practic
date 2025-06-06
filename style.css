@@ -974,3 +974,23 @@ footer {
     letter-spacing: 0;
     line-height: normal;
 }
+
+.fixed-ad {
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 200px; /* Отступ от нижнего края экрана */
+    top: 200px;
+    right: 20px; /* Отступ от правого края экрана */
+    z-index: 1000; /* Убедитесь, что реклама находится поверх других элементов */
+    /* Дополнительные стили для внешнего вида */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Стили для изображения (если используете) */
+  .fixed-ad img {
+    max-width: 500px; /* Максимальная ширина изображения */
+    height: auto;
+  }
