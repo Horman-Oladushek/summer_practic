@@ -933,11 +933,11 @@ footer {
 
 
 .loop {
-    position: relative;
+    position: absolute;
     width: 14px;
     height: 19px;
-    top: 15px;
-    left: 633px;
+    top: 5.5%;
+    left: 72%;
 }
 
 .overlap-group-4 {
@@ -945,7 +945,7 @@ footer {
     height: 19px;
 }
 
-.line-2 {
+.line-loop {
     position: absolute;
     width: 7px;
     height: 9px;
@@ -953,7 +953,7 @@ footer {
     left: 7px;
 }
 
-.ellipse-3 {
+.ellipse-loop {
     width: 10px;
     height: 11px;
     left: 0;
