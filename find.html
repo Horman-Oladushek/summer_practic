@@ -36,10 +36,15 @@
     </header>
     <main>
       <div class="fixed-ad">
-        <!-- Здесь разместите код вашей рекламы (изображение, текст, iframe и т.д.) -->
-        <a href="https://tenor.com/ru/view/rickroll-roll-rick-never-gonna-give-you-up-never-gonna-gif-22954713" target="_blank">
-          <img src="https://media1.tenor.com/m/x8v1oNUOmg4AAAAd/rickroll-roll.gif" alt="Реклама">
+        <button class="close-button">×</button>
+        <!-- Здесь разместите код вашей рекламы -->
+        <a href="https://contract.gosuslugi.ru/" target="_blank">
+          <img src="pngs/ad_find.png" alt="Реклама">
         </a>
+      </div>
+      
+      <div class="rick-roll" style="display: none;">
+        <iframe width="1000" height="1000" src="pngs/tenor.gif" frameborder="0" allowfullscreen></iframe>
       </div>
 
         <div class="desktop">
@@ -292,7 +297,16 @@
     </footer>
     
    
-    
+    <script>
+      const closeButton = document.querySelector('.close-button');
+      const fixedAd = document.querySelector('.fixed-ad');
+      const rickRoll = document.querySelector('.rick-roll');
+
+      closeButton.addEventListener('click', () => {
+        fixedAd.style.display = 'none'; // Скрываем рекламный блок
+        rickRoll.style.display = 'flex'; // Показываем Rick Roll
+      });
+    </script>
     
 </body>
 </html>

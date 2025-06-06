@@ -976,12 +976,10 @@ footer {
 }
 
 .fixed-ad {
-    position: fixed; /* Фиксированное позиционирование */
-    bottom: 200px; /* Отступ от нижнего края экрана */
-    top: 200px;
-    right: 20px; /* Отступ от правого края экрана */
-    z-index: 1000; /* Убедитесь, что реклама находится поверх других элементов */
-    /* Дополнительные стили для внешнего вида */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 10px;
@@ -989,8 +987,30 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
-  /* Стили для изображения (если используете) */
   .fixed-ad img {
-    max-width: 500px; /* Максимальная ширина изображения */
+    max-width: 500px;
     height: auto;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .rick-roll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001; /* Поверх рекламы */
   }
